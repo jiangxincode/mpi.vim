@@ -254,6 +254,30 @@ syntax keyword MPIconst MPI_WIN_SIZE
 syntax keyword MPIconst MPI_WTIME_IS_GLOBAL
 
 
+syntax keyword MPItype MPI_Aint
+syntax keyword MPItype MPI_Common
+syntax keyword MPItype MPI_Datatype
+syntax keyword MPItype MPI_Errhandler
+syntax keyword MPItype MPI_File
+syntax keyword MPItype MPI_Fint
+syntax keyword MPItype MPI_Group
+syntax keyword MPItype MPI_Info
+syntax keyword MPItype MPI_Offset
+syntax keyword MPItype MPI_Op
+syntax keyword MPItype MPI_Request
+syntax keyword MPItype MPI_Status
+syntax keyword MPItype MPI_Win
+syntax keyword MPItype MPI_
+syntax keyword MPItype MPI_
+syntax keyword MPItype MPI_
+syntax keyword MPItype MPI_
+syntax keyword MPItype MPI_
+syntax keyword MPItype MPI_
+syntax keyword MPItype MPI_
+syntax keyword MPItype MPI_
+syntax keyword MPItype MPI_
+
+
 " Default highlighting
 if version >= 508 || !exists("did_mpi_syntax_inits")
   if version < 508
