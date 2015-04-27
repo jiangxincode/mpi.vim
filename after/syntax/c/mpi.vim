@@ -278,7 +278,7 @@ if version >= 508 || !exists("did_mpi_syntax_inits")
     command -nargs=+ HiLink hi def link <args>
   endif
   HiLink MPIconst Constant
-  Hilink MPItype Typedef
+  HiLink MPItype Typedef
   delcommand HiLink
 endif
 
