@@ -1,10 +1,15 @@
 # mpi.vim
 
-Syntax highlight, matching rules and mappings for the mpi. Now the plugin on support the C binding of MPI, and C++ or Fortran binding is on the way. If you have some advises, please tell me, open a issue, give me a pull request, or send me a email. Hava a good time on MPI.
+![image](https://github.com/jiangxincode/mpi.vim/raw/master/screenshots/status.png)
+
+Syntax highlight, matching rules and mappings for the mpi. Now the plugin only support the C binding of MPI, and C++ or Fortran binding is on the way. If you have some advises, please tell me, open a issue, give me a pull request, or send me a email. Hava a good time on MPI.
 
 + Aloys
 + jiangxinnju@163.com
  
+![image](https://github.com/jiangxincode/mpi.vim/raw/master/screenshots/mpi-vim.png)
+
+
 ## Installation
 
 If you use [Vundle](https://github.com/gmarik/vundle),add the following line to your `~/.vimrc`:
