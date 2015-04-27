@@ -9,7 +9,6 @@ syntax keyword MPIconst ANY_TAG
 syntax keyword MPIconst APPNUM
 syntax keyword MPIconst MPI_COMM_WORLD
 
-syntax keyword MPIfunction 
 
 " Default highlighting
 if version >= 508 || !exists("did_mpi_syntax_inits")
