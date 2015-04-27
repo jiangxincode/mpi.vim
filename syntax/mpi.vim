@@ -7,7 +7,7 @@ syntax keyword MPIconst _LONG_LONG
 syntax keyword MPIconst ANY_SOURCE
 syntax keyword MPIconst ANY_TAG
 syntax keyword MPIconst APPNUM
-syntax keyword MPIconst COMM_WORLD
+syntax keyword MPIconst MPI_COMM_WORLD
 
 " Default highlighting
 if version >= 508 || !exists("did_mpi_syntax_inits")
