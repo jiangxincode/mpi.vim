@@ -1,6 +1,6 @@
 # mpi.vim
 
-![image](https://github.com/jiangxincode/mpi.vim/raw/master/screenshots/status.png)
+![image](https://github.com/jiangxincode/mpi.vim/raw/master/screenshots/status.svg)
 
 Syntax highlight, matching rules and mappings for the mpi. Now the plugin only support the C binding of MPI, and C++ or Fortran binding is on the way. If you have some advises, please tell me, open a issue, give me a pull request, or send me a email. Hava a good time on MPI.
 
