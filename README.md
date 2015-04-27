@@ -1,6 +1,5 @@
 # mpi.vim
 
-[![Build Status](https://travis-ci.org/jiangxincode/mpi.vim.svg)](https://travis-ci.org/jiangxincode/mpi.vim)
 Syntax highlight, matching rules and mappings for the mpi.
 
 ## Installation
