@@ -267,15 +267,6 @@ syntax keyword MPItype MPI_Op
 syntax keyword MPItype MPI_Request
 syntax keyword MPItype MPI_Status
 syntax keyword MPItype MPI_Win
-syntax keyword MPItype MPI_
-syntax keyword MPItype MPI_
-syntax keyword MPItype MPI_
-syntax keyword MPItype MPI_
-syntax keyword MPItype MPI_
-syntax keyword MPItype MPI_
-syntax keyword MPItype MPI_
-syntax keyword MPItype MPI_
-syntax keyword MPItype MPI_
 
 
 " Default highlighting
@@ -287,6 +278,7 @@ if version >= 508 || !exists("did_mpi_syntax_inits")
     command -nargs=+ HiLink hi def link <args>
   endif
   HiLink MPIconst Constant
+  Hilink MPItype Typedef
   delcommand HiLink
 endif
 
