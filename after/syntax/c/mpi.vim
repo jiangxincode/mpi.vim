@@ -269,6 +269,29 @@ syntax keyword MPItype MPI_Status
 syntax keyword MPItype MPI_Win
 
 
+syntax keyword MPIcallbackfunction MPI_Comm_copy_attr_function
+syntax keyword MPIcallbackfunction MPI_Comm_delete_attr_function
+syntax keyword MPIcallbackfunction MPI_Comm_errhandler_fn
+syntax keyword MPIcallbackfunction MPI_Comm_errhandler_function
+syntax keyword MPIcallbackfunction MPI_Copy_function
+syntax keyword MPIcallbackfunction MPI_Datarep_conversion_function
+syntax keyword MPIcallbackfunction MPI_Datarep_extent_function
+syntax keyword MPIcallbackfunction MPI_Delete_function
+syntax keyword MPIcallbackfunction MPI_File_errhandler_fn
+syntax keyword MPIcallbackfunction MPI_File_errhandler_function
+syntax keyword MPIcallbackfunction MPI_Grequest_cancel_function
+syntax keyword MPIcallbackfunction MPI_Grequest_free_function
+syntax keyword MPIcallbackfunction MPI_Grequest_query_function
+syntax keyword MPIcallbackfunction MPI_Handler_function
+syntax keyword MPIcallbackfunction MPI_Type_copy_attr_function
+syntax keyword MPIcallbackfunction MPI_Type_delete_attr_function
+syntax keyword MPIcallbackfunction MPI_User_function
+syntax keyword MPIcallbackfunction MPI_Win_copy_attr_function
+syntax keyword MPIcallbackfunction MPI_Win_delete_attr_function
+syntax keyword MPIcallbackfunction MPI_Win_errhandler_fn
+syntax keyword MPIcallbackfunction MPI_Win_errhandler_function
+
+
 " Default highlighting
 if version >= 508 || !exists("did_mpi_syntax_inits")
   if version < 508
@@ -278,6 +301,7 @@ if version >= 508 || !exists("did_mpi_syntax_inits")
     command -nargs=+ HiLink hi def link <args>
   endif
   HiLink MPIconst Constant
+  HiLink MPIcallbackfunction Function
   HiLink MPItype Typedef
   delcommand HiLink
 endif
