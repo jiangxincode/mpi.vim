@@ -44,6 +44,7 @@ tar --strip=1 -zxf mpi.vim-master.tar.gz
 + finish fortran binding
 + check the cpp class type
 + add the check of namespace::function and namespace::class:function
++ add openmpi specified support
 
 
 ## License
