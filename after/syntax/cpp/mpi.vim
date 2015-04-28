@@ -232,19 +232,26 @@ syntax keyword MPIconst WIN_SIZE
 syntax keyword MPIconst WTIME_IS_GLOBAL
 
 
-syntax keyword MPItype MPI_Aint
-syntax keyword MPItype MPI_Common
-syntax keyword MPItype MPI_Datatype
-syntax keyword MPItype MPI_Errhandler
-syntax keyword MPItype MPI_File
-syntax keyword MPItype MPI_Fint
-syntax keyword MPItype MPI_Group
-syntax keyword MPItype MPI_Info
-syntax keyword MPItype MPI_Offset
-syntax keyword MPItype MPI_Op
-syntax keyword MPItype MPI_Request
-syntax keyword MPItype MPI_Status
-syntax keyword MPItype MPI_Win
+syntax keyword MPItype Aint
+syntax keyword MPItype Cartcommon
+syntax keyword MPItype Common
+syntax keyword MPItype Datatype
+syntax keyword MPItype Distgraphcomm
+syntax keyword MPItype Errhandler
+syntax keyword MPItype Exception
+syntax keyword MPItype File
+syntax keyword MPItype Graphcomm
+syntax keyword MPItype Grequest
+syntax keyword MPItype Group
+syntax keyword MPItype Info
+syntax keyword MPItype Intercomm
+syntax keyword MPItype Inrarcomm
+syntax keyword MPItype Offset
+syntax keyword MPItype Op
+syntax keyword MPItype Prequest
+syntax keyword MPItype Request
+syntax keyword MPItype Status
+syntax keyword MPItype Win
 
 
 syntax keyword MPIcallbackfunction MPI_Comm_copy_attr_function
