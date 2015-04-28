@@ -33,8 +33,13 @@ syntax keyword MPIconst MPI_COMBINER_DARRAY
 syntax keyword MPIconst MPI_COMBINER_DUP
 syntax keyword MPIconst MPI_COMBINER_F90_COMPLEX
 syntax keyword MPIconst MPI_COMBINER_F90_INTEGER
-syntax keyword MPIconst MPI_COMBINER_F90_READ
+syntax keyword MPIconst MPI_COMBINER_F90_REAL
 syntax keyword MPIconst MPI_COMBINER_HINDEXED
+syntax keyword MPIconst MPI_COMBINER_HINDEXED_INTEGER
+syntax keyword MPIconst MPI_COMBINER_HVECTOR
+syntax keyword MPIconst MPI_COMBINER_HVECTOR_INTEGER
+syntax keyword MPIconst MPI_COMBINER_INDEXED
+syntax keyword MPIconst MPI_COMBINER_INDEXED_BLOCK
 syntax keyword MPIconst MPI_COMBINER_NAMED
 syntax keyword MPIconst MPI_COMBINER_STRUCT
 syntax keyword MPIconst MPI_COMBINER_STRUCT_INTEGER
@@ -84,8 +89,8 @@ syntax keyword MPIconst MPI_ERR_GROUP
 syntax keyword MPIconst MPI_ERR_IN_STATUS
 syntax keyword MPIconst MPI_ERR_INFO
 syntax keyword MPIconst MPI_ERR_INFO_KEY
-syntax keyword MPIconst MPI_ERR_NOKEY
-syntax keyword MPIconst MPI_ERR_VALUE
+syntax keyword MPIconst MPI_ERR_INFO_NOKEY
+syntax keyword MPIconst MPI_ERR_INFO_VALUE
 syntax keyword MPIconst MPI_ERR_INTERN
 syntax keyword MPIconst MPI_ERR_IO
 syntax keyword MPIconst MPI_ERR_KEYVAL
