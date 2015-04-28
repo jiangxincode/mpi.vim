@@ -627,7 +627,6 @@ syntax keyword MPIfunction MPI_Win_unlock
 syntax keyword MPIfunction MPI_Win_wait
 syntax keyword MPIfunction MPI_Wtick
 syntax keyword MPIfunction MPI_Wtime
-syntax keyword MPIfunction MPI_Wtime21
 syntax keyword MPIfunction PMPI_
 syntax keyword MPIfunction PMPI_Wtick
 syntax keyword MPIfunction PMPI_Wtime
