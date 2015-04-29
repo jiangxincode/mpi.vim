@@ -117,7 +117,7 @@ syntax keyword MPIconst MPI_ERR_SIZE
 syntax keyword MPIconst MPI_ERR_SPAWN
 syntax keyword MPIconst MPI_ERR_TAG
 syntax keyword MPIconst MPI_ERR_TOPOLOGY
-syntax keyword MPIconst MPI__ERR_TRUNCATE
+syntax keyword MPIconst MPI_ERR_TRUNCATE
 syntax keyword MPIconst MPI_ERR_TYPE
 syntax keyword MPIconst MPI_ERR_UNKNOWN
 syntax keyword MPIconst MPI_ERR_UNSUPPORTED_DATAREP
@@ -175,7 +175,7 @@ syntax keyword MPIconst MPI_MAX_ERROR_STRING
 syntax keyword MPIconst MPI_MAX_INFO_KEY
 syntax keyword MPIconst MPI_MAX_INFO_VAL
 syntax keyword MPIconst MPI_MAX_OBJECT_NAME
-syntax keyword MPIconst MPI__MAX_PORT_NAME
+syntax keyword MPIconst MPI_MAX_PORT_NAME
 syntax keyword MPIconst MPI_MAX_PROCESSOR_NAME
 syntax keyword MPIconst MPI_MAXLOC
 syntax keyword MPIconst MPI_MIN

@@ -104,7 +104,7 @@ syntax keyword MPIconst ERR_SIZE
 syntax keyword MPIconst ERR_SPAWN
 syntax keyword MPIconst ERR_TAG
 syntax keyword MPIconst ERR_TOPOLOGY
-syntax keyword MPIconst _ERR_TRUNCATE
+syntax keyword MPIconst ERR_TRUNCATE
 syntax keyword MPIconst ERR_TYPE
 syntax keyword MPIconst ERR_UNKNOWN
 syntax keyword MPIconst ERR_UNSUPPORTED_DATAREP
@@ -485,7 +485,6 @@ syntax keyword MPIfunction Ssend_init
 syntax keyword MPIfunction Start
 syntax keyword MPIfunction Startall
 syntax keyword MPIfunction Sync
-syntax keyword MPIfunction Test
 syntax keyword MPIfunction Test
 syntax keyword MPIfunction Testall
 syntax keyword MPIfunction Testany
