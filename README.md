@@ -4,11 +4,13 @@
 
 Syntax highlight, matching rules and mappings for the mpi.
 
-Now the plugin has full support of MPI 2.2 with C, C++ and Fortran bingding, Golang binding is on the way.
+Now the plugin has full support of MPI 2.2 with C, C++ and Fortran binding, Golang binding is on the way.
 
 If you have some advises, please tell me, open a issue, give me a pull request, or send me a email. 
 
 Hava a good time on MPI.
+
+Hava a good time on VIM.
 
 + Aloys
 + jiangxinnju@163.com
