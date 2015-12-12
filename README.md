@@ -1,5 +1,7 @@
 # mpi.vim
 
+[![Join the chat at https://gitter.im/jiangxincode/mpi.vim](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/jiangxincode/mpi.vim?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+
 ![image](https://github.com/jiangxincode/mpi.vim/raw/master/screenshots/status.png)
 
 Syntax highlight, matching rules and mappings for the mpi.
