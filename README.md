@@ -2,11 +2,11 @@
 
 [![Join the chat at https://gitter.im/jiangxincode/mpi.vim](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/jiangxincode/mpi.vim?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
-Syntax highlight, matching rules and mappings for the mpi. (For mpi auto complete, see my another vim plugin: https://github.com/jiangxincode/TagCollection)
+Syntax highlight, matching rules and mappings for the mpi. (For mpi auto complete, see my another vim plugin: <https://github.com/jiangxincode/TagCollection>)
 
 Now the plugin has full support of MPI 2.2 with C, C++ and Fortran binding, Golang binding is on the way.
 
-If you have some advises, please tell me, open a issue, give me a pull request, or send me a email. 
+If you have some advises, please tell me, open a issue, give me a pull request, or send me a email.
 
 Hava a good time on MPI.
 
@@ -14,9 +14,8 @@ Hava a good time on VIM.
 
 + Aloys
 + jiangxinnju@163.com
- 
-![image](https://github.com/jiangxincode/mpi.vim/raw/master/screenshots/mpi-vim.png)
 
+![image](https://github.com/jiangxincode/mpi.vim/raw/master/screenshots/mpi-vim.png)
 
 ## Installation
 
@@ -25,6 +24,7 @@ If you use [Vundle](https://github.com/gmarik/vundle),add the following line to 
 ```vim
 Plugin 'jiangxincode/mpi.vim'
 ```
+
 Then run inside Vim:
 
 ```vim
@@ -46,14 +46,12 @@ cd ~/.vim
 tar --strip=1 -zxf mpi.vim-master.tar.gz
 ```
 
-
 ## TODO
 
 + finish golong binding
 + check the cpp class type
 + add the check of namespace::function and namespace::class:function
 + add openmpi specified support
-
 
 ## License
 
@@ -67,6 +65,4 @@ The above copyright notice and this permission notice shall be included in all c
 
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
-
 [![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/jiangxincode/mpi.vim/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
-
