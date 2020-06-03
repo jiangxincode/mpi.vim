@@ -260,6 +260,7 @@ syntax keyword MPIconst MPI_WTIME_IS_GLOBAL
 
 
 syntax keyword MPItype MPI_Aint
+syntax keyword MPItype MPI_Comm
 syntax keyword MPItype MPI_Common
 syntax keyword MPItype MPI_Datatype
 syntax keyword MPItype MPI_Errhandler
