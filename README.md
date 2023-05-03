@@ -1,7 +1,5 @@
 # mpi.vim
 
-[![Join the chat at https://gitter.im/jiangxincode/mpi.vim](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/jiangxincode/mpi.vim?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
-
 Syntax highlight, matching rules and mappings for the mpi. (For mpi auto complete, see my another vim plugin: <https://github.com/jiangxincode/TagCollection>)
 
 Now the plugin has full support of MPI 2.2 with C, C++ and Fortran binding, Golang binding is on the way.
